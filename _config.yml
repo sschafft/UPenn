@@ -1,2 +1,36 @@
+
 name: UPenn CLO Online Community Session
 pygments: true
+markdown: kramdown
+paginate: 10
+version: 0.9
+
+seo:
+  author: Scott Schaffter, Nicholas Kingston -- Bivee
+  description: UPenn CLO Online Community Group
+  keywords:
+  
+
+url: 
+permalink: /:year/:title
+  
+social:
+  facebook: 
+  twitter:
+  linkedin:
+  googleplus:
+  github: 'biveeco'
+  
+google:
+  analytics : 'UA-111-11'
+  verification : 'SVC'
+
+facebook:
+  admins : '2188a'
+  api : 'asdfas'
+
+assets:
+  img: '/assets/images/'
+  css: '/assets/stylesheets/'
+  js: '/assets/javascripts/'
+  
