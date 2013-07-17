@@ -736,3 +736,45 @@ footer .logo path{
 #disqus_thread {
   margin-top: 100px;
 }
+
+/* Community Sites 
+================================================== */
+
+.discourse {
+  background: rgb(235,146,23);
+  margin-top: 20px;
+}
+
+.socialcast {
+  background: rgb(227,29,56);
+}
+
+.google_plus {
+  background: rgb(0,125,197);
+}
+
+.community {
+  padding: 50px;
+  color:#fff;
+}
+
+.community h2 {
+  font-weight:900;
+  color:#fff;
+  line-height: 100%;
+}
+
+.community h3 {
+  font-weight:200;
+  font-size:20px;
+  color:#fff;
+  margin-bottom:15px;
+}
+
+.community h4 {
+  color:#fff;
+}
+
+.community a {
+  color:#fff;
+}

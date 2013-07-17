@@ -22,12 +22,12 @@ social:
   github: 'biveeco'
   
 google:
-  analytics : 'UA-111-11'
+  analytics : 'UA-42533764-1'
   verification : 'SVC'
 
 facebook:
-  admins : '2188a'
-  api : 'asdfas'
+  admins :
+  api :
 
 assets:
   img: '/assets/images/'
