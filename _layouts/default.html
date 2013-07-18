@@ -3,19 +3,24 @@
     <section id="banner" class="blue">
       <article>
         <div class="columns large-12">
-          <img class="heading_img desktop" src="{{ site.assets.img }}upenn.svg" /> <h1>{{ page.title }}</h1>
+          <img class="heading_img desktop" src="{{ site.assets.img }}upenn.svg" /> 
+          <div class="heading">
+            <h1>{{ page.title }}</h1>
+            <h2>Building Online Communities Resource Site</h2>
+          </div>
         </div>
       </article>
     </section>
+    {% include nav.html %}
     <section>
       <article>
-        <div class="columns large-9 large-offset-3">
+        <div class="columns large-12">
           {{ content }}
 
           {% include disqus.html %}  
         </div>      
 
-{% include nav.html %}
+
     
 
 
