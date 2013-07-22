@@ -783,7 +783,7 @@ div.home h1 {
   font-weight:200;
   font-size:20px;
   color:#fff;
-  margin-bottom:15px;
+  margin-bottom:45px;
 }
 
 .community h4 {
@@ -792,4 +792,14 @@ div.home h1 {
 
 .community a {
   color:#fff;
+}
+
+.community a:hover {
+  color: #ccc;
+}
+
+.circle {
+  width:80px;
+  margin: 0 20px 10px 0;
+  float:left;
 }
