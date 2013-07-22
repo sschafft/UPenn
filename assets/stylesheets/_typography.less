@@ -1,0 +1,116 @@
+/* Typography
+================================================== */
+  @heavy: 900;
+  @extrabold: 800;
+  @bold: 700;
+  @semibold: 600;
+  @medium: 500;
+  @regular: 400;
+  @light: 300;
+  @thin: 200;
+  @paper: 100;
+  
+  .font { font-family: 'Helvetica Neue',  Helvetica, Verdana, Arial, sans-serif; }
+  .heading { font-family: .font; }
+  
+  /* Font Colors */
+  .textcolor1 {
+    color: @color1 !important;
+  }
+  .textblue {
+    color: @blue !important;
+  }
+  .textcolor2 {
+    color: @color2 !important;
+  }
+  .textcolor3 {
+    color: @color3 !important;
+  }
+  .textwhite {
+    color: @white !important;
+  }
+  .textoffwhite {
+    color: @offwhite !important;
+  }
+  .textgrey {
+    color: @grey !important;
+  }
+  .textblack {
+    color: @black !important;
+  }
+  
+  /* Link Styles */
+  a {
+    .font;
+    text-decoration: none;
+    color: @blue;
+    font-weight: @thin;
+    .transition;
+    &:hover {
+      color: darken(@blue, 20%);
+    }
+  }
+  
+  /* Heading Styles */
+  h1, h2, h3, h4, h5, h6 { 
+    font-family: "Ubuntu", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  }
+  
+  h1 {
+    font-weight: @light;
+    font-size: 320%;
+    line-height: 160%;
+  }
+  h2 {
+    font-weight: @light;
+    font-size: 200%;
+    line-height: 160%;
+    border-bottom: 1px solid darken(@offwhite, 5%);
+    margin-bottom: 20px;
+    color: @color2;
+  }
+  h3 {
+    font-weight: @regular;
+    font-size: 120%;
+    line-height: 160%;
+    color: @color3;
+  }
+  h4 {
+    font-weight: @light;
+    font-size: 100%;
+    line-height: 160%;
+    font-style: italic;
+  }
+  h5 {
+    font-weight: @regular;
+    font-size: 90%;
+    line-height: 160%;
+  }
+  h6 {
+    
+  }
+  
+  /* Paragraph Styles */
+  
+  p {  
+    padding-bottom: 25px;
+    font-weight: @light;
+    line-height: 180%;
+  }
+  
+  /* Link Styles */
+
+  
+  /* Other Styles */
+  
+  .heart {
+    color: @red;
+  }
+  ul {
+    margin-left: 20px;
+    color: @grey;
+    li {
+      padding-left: 5px;
+      color: @black;
+    }
+  }

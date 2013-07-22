@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
   
-  <title>Bivee | {% if page.title %}{{ page.title }}{% else %}Systems Development{% endif %}</title>
+  <title>UPenn || {% if page.title %}{{ page.title }}{% else %}CLO Program{% endif %}</title>
   
   <!-- // Site Info
   ====================================
   
   Version:  {{ site.version }}
   
-  Launch:     
-  Updated:    
+  Launch:   {{ site.launch }}
+  Updated:  {{ site.revision }}
   
   Author:   {{ site.seo.author }}
   
@@ -39,19 +39,18 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   
   <!-- Robots & Favicons  -->
-  <link rel="shortcut icon" type="image/png" href="{{ site.assets.img }}favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
   <meta name="robots" content="index, follow"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
     
   <!-- CSS and Fonts  -->
   <link rel="stylesheet" media="screen" href="{{ site.assets.css }}style.css">
-  <link rel="stylesheet" media="screen" href="{{ site.assets.css }}nav.css">
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,500' rel='stylesheet' type='text/css'>
+ 
   
   <!-- IE Fixes  -->
   <!--[if IE]><meta content="IE=8" http-equiv="X-UA-Compatible"/><![endif]-->
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif] -->
 
 </head>
-<body>
+<body data-spy="scroll" data-target="ul#pinned">

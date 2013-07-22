@@ -1,0 +1,244 @@
+/* Sections
+================================================== */
+
+  section, nav, footer {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  #about, #community, #slides, #resources, #downloads, #discussion {
+    padding-bottom: 60px;
+    &::after {
+      content: "...";
+      width: 100%;
+      display: table;
+      text-align: center;
+      font-size: 200%;
+      font-family: monospace;
+      color: @grey;
+    }
+  }
+  
+/* Header
+================================================== */
+
+header {
+  padding: 20px 0;
+  
+  svg {
+    text-align: left;
+    margin: 0 20px;
+    height: 50px;
+    width: 155px;
+  }
+  h1 {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    color: @grey;
+    text-transform: uppercase;
+    font-weight: @paper;
+    font-size: 200%;
+    
+  }
+  
+}
+
+/* Page Headers
+================================================== */
+  section#banner {
+    background: url(../images/hero.jpg) no-repeat 50% 50%;
+    .background-size;
+    position: relative;
+    height: 100%;
+    max-height: 400px;
+    text-align: center;
+    h1, p {
+      color: @white;
+      border-bottom: none;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      text-shadow: -3px 0px 3px @black;
+      font-weight: @regular;
+    }
+    em {
+      font-size: 50%;
+      display: block;
+      font-weight: @thin;
+    }
+  }   
+
+/* Nav Menu
+================================================== */
+
+  #nav {
+    
+    ul {
+      list-style: none;
+      border: 1px solid darken(@offwhite, 10%);
+      padding: 10px 0;
+      .radius(10px);
+      max-width: 175px;
+      margin-top: 10px;
+      a {
+        color: @grey;
+        font-weight: @thin;
+        border-bottom: 1px solid darken(@offwhite, 10%);
+      }
+      li {
+        display: block;
+        padding: 8px 10px;
+        svg {
+          width: 100%;
+          max-width: 155px;
+          height: 50px;
+        }
+        &:hover {
+          background: @offwhite;
+        }
+      }
+      &:last-child li:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  #showmenu {
+      display: none;
+      position: absolute;
+      font-size: 200%;
+      right: 15px;
+      top: 5px;
+      padding-top: 4px;
+      background: @grey;
+      height: 40px;
+      width: 40px;
+      color: @blue;
+      text-align: center;
+      .radius(20px);
+      z-index: 100000000;
+      &:hover {
+        background: @color1;
+      }
+    }
+
+/* Community 
+================================================== */
+
+#communities {
+  
+  .community_logo {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    a {
+      display: inline-block;
+      
+      &:hover img {
+        .scale(1.15);
+        
+      }
+      img {
+        max-width: 320px;
+        .transition;
+      }
+    }
+  }
+  h3 {
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    text-align: center;
+    border-top: 1px solid darken(@offwhite, 5%);
+    border-bottom: 1px solid darken(@offwhite, 5%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  a {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .site {
+    padding-bottom: 20px;
+  }
+}
+
+
+/* Footer 
+================================================== */
+
+  footer {
+    background: @offwhite;
+    
+    h2, a {
+      color: @grey;
+    }
+    h2 {
+      text-align: center;
+    }
+    a {
+      display: block;
+      font-weight: @light;
+      padding-bottom: 5px;
+    }
+    a:hover {
+      color: @color1;
+    }
+    i {
+      margin-right: 10px;
+    }
+    h3 {
+      font-weight: @light;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 80%;
+      color: @color1;
+    }
+  }
+ 
+ /* Set footerHeight to TOTAL height of all divs to be sticky */
+ @footerHeight: 100px;
+ 
+ footer#contact {
+   text-align: center;
+   text-transform: uppercase;
+   color: @grey;
+   word-spacing: 6px;
+   letter-spacing: 3px;
+   font-size: 60%;
+   svg {
+      height: 50px;
+      fill: @blue;
+   }
+   a{
+     &:hover {
+       .scale(1.15);
+     }
+   }
+ }
+
+ footer#bottom {
+   background: @black;
+   color: @white;
+   font-weight: @thin;
+   font-size: 80%;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   text-align: center;
+   
+   span {
+     padding-right: 20px;
+     color: @grey;
+   }
+ }
+  #push {
+    height: @footerHeight;
+  }
+  #container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto (-1 * @footerHeight);
+  }
