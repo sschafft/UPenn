@@ -152,7 +152,7 @@ hr {
 /* Typography
 ================================================== */
 .font {
-  font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
 }
 .heading {
   font-family: .font;
@@ -204,7 +204,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
 }
 h1 {
   font-weight: 300;
@@ -1105,4 +1105,15 @@ article article:after {
 }
 .white {
   background: #ffffff !important;
+}
+
+
+/* Adjustments */
+section#banner h2 {
+  font-weight: 300;
+  font-size: 200%;
+  line-height: 160%;
+  color: #ffffff;
+  text-shadow: -3px 0px 3px #333333;
+  border:none;
 }
