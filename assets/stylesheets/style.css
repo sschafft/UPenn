@@ -993,7 +993,7 @@ article article:after {
     padding: 40px 0;
   }
   #banner h2 {
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 100;
   }
   nav#main {
@@ -1031,10 +1031,10 @@ article article:after {
     color: #ffffff;
   }
   h1 {
-    font-size: 250%;
+    font-size: 200%;
   }
   h2 {
-    font-size: 170%;
+    font-size: 150%;
   }
   h3 {
     font-size: 120%;
@@ -1054,13 +1054,13 @@ article article:after {
 }
 @media screen and (max-width: 25em) {
   h1 {
-    font-size: 180%;
-  }
-  h2 {
     font-size: 150%;
   }
+  h2 {
+    font-size: 130%;
+  }
   h3 {
-    font-size: 120%;
+    font-size: 100%;
   }
 }
 /* Background */
@@ -1111,7 +1111,7 @@ article article:after {
 /* Adjustments */
 section#banner h2 {
   font-weight: 300;
-  font-size: 200%;
+  font-size: 150%;
   line-height: 160%;
   color: #ffffff;
   text-shadow: -3px 0px 3px #333333;
