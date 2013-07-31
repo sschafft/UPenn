@@ -3,7 +3,7 @@
 window.onload = function() {
 	function addIcon(el, entity) {
 		var html = el.innerHTML;
-		el.innerHTML = '<span style="font-family: \'fontawesome\'">' + entity + '</span>' + html;
+		el.innerHTML = '<span style="font-family: \'font-awesome\'">' + entity + '</span>' + html;
 	}
 	var icons = {
 			'icon-reorder' : '&#xf0c9;',
@@ -19,7 +19,8 @@ window.onload = function() {
 			'icon-facetime-video' : '&#xf03d;',
 			'icon-download-alt' : '&#xf019;',
 			'icon-home' : '&#xf015;',
-			'icon-picture' : '&#xf03e;'
+			'icon-picture' : '&#xf03e;',
+			'icon-linkedin-sign' : '&#xf08c;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
