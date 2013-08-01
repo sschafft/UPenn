@@ -463,6 +463,19 @@ section#banner em {
   display: block;
   font-weight: 200;
 }
+
+
+/* Adjustments */
+section#banner h2 {
+  font-weight: 300;
+  font-size: 150%;
+  line-height: 160%;
+  color: #ffffff;
+  text-shadow: -3px 0px 3px #333333;
+  border:none;
+  margin:0px;
+}
+
 /* Nav Menu
 ================================================== */
 #nav ul {
@@ -564,6 +577,21 @@ section#banner em {
 #communities .site {
   padding-bottom: 20px;
 }
+
+/* Resources 
+================================================== */
+
+.extra_links a {
+  display:block;
+  padding:5px;
+}
+
+.extra_links {
+  margin-left:25px;
+}
+
+
+
 /* Footer 
 ================================================== */
 footer {
@@ -1081,10 +1109,10 @@ you can use the generic selector below, but it's slower:
 }
 @media screen and (max-width: 25em) {
   h1 {
-    font-size: 150%;
+    font-size: 200%;
   }
   h2 {
-    font-size: 130%;
+    font-size: 150%;
   }
   h3 {
     font-size: 100%;
@@ -1134,13 +1162,4 @@ you can use the generic selector below, but it's slower:
   background: #ffffff !important;
 }
 
-
-/* Adjustments */
-section#banner h2 {
-  font-weight: 300;
-  font-size: 150%;
-  line-height: 160%;
-  color: #ffffff;
-  text-shadow: -3px 0px 3px #333333;
-  border:none;
 }
